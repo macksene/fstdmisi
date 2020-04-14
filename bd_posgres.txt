@@ -1,0 +1,195 @@
+------------------------------------------------------------
+-- Table: cours
+------------------------------------------------------------
+CREATE TABLE public.cours(
+	id_cours         SERIAL NOT NULL ,
+	intitule_cours   VARCHAR (50) NOT NULL  ,
+	CONSTRAINT cours_PK PRIMARY KEY (id_cours)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: date_cours
+------------------------------------------------------------
+CREATE TABLE public.date_cours(
+	id_date   SERIAL NOT NULL ,
+	date      VARCHAR (50) NOT NULL  ,
+	CONSTRAINT date_cours_PK PRIMARY KEY (id_date)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: pays
+------------------------------------------------------------
+CREATE TABLE public.pays(
+	id_pays    SERIAL NOT NULL ,
+	nom_pays   VARCHAR (50) NOT NULL  ,
+	CONSTRAINT pays_PK PRIMARY KEY (id_pays)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: ville
+------------------------------------------------------------
+CREATE TABLE public.ville(
+	id_ville    SERIAL NOT NULL ,
+	nom_ville   VARCHAR (50) NOT NULL ,
+	id_pays     INT  NOT NULL  ,
+	CONSTRAINT ville_PK PRIMARY KEY (id_ville)
+
+	,CONSTRAINT ville_pays_FK FOREIGN KEY (id_pays) REFERENCES public.pays(id_pays)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: personne
+------------------------------------------------------------
+CREATE TABLE public.personne(
+	id_p          SERIAL NOT NULL ,
+	nom_p         VARCHAR (50) NOT NULL ,
+	prenom_p      VARCHAR (50) NOT NULL ,
+	date_nais_p   DATE  NOT NULL ,
+	tel_p         VARCHAR (50) NOT NULL ,
+	email_p       VARCHAR (50) NOT NULL ,
+	mdp_p         VARCHAR (50) NOT NULL ,
+	id_ville      INT  NOT NULL  ,
+	CONSTRAINT personne_PK PRIMARY KEY (id_p)
+
+	,CONSTRAINT personne_ville_FK FOREIGN KEY (id_ville) REFERENCES public.ville(id_ville)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: departement
+------------------------------------------------------------
+CREATE TABLE public.departement(
+	id_dep    SERIAL NOT NULL ,
+	nom_dep   VARCHAR (50) NOT NULL ,
+	tel_dep   VARCHAR (50) NOT NULL  ,
+	CONSTRAINT departement_PK PRIMARY KEY (id_dep)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: domaine_recherche
+------------------------------------------------------------
+CREATE TABLE public.domaine_recherche(
+	id_domaine        SERIAL NOT NULL ,
+	libelle_domaine   VARCHAR (50) NOT NULL  ,
+	CONSTRAINT domaine_recherche_PK PRIMARY KEY (id_domaine)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: professeur
+------------------------------------------------------------
+CREATE TABLE public.professeur(
+	id_p             INT  NOT NULL ,
+	titre            VARCHAR (50) NOT NULL ,
+	statut_marital   VARCHAR (50) NOT NULL ,
+	nom_p            VARCHAR (50) NOT NULL ,
+	prenom_p         VARCHAR (50) NOT NULL ,
+	date_nais_p      DATE  NOT NULL ,
+	tel_p            VARCHAR (50) NOT NULL ,
+	email_p          VARCHAR (50) NOT NULL ,
+	mdp_p            VARCHAR (50) NOT NULL ,
+	id_domaine       INT  NOT NULL ,
+	id_ville         INT  NOT NULL  ,
+	CONSTRAINT professeur_PK PRIMARY KEY (id_p)
+
+	,CONSTRAINT professeur_personne_FK FOREIGN KEY (id_p) REFERENCES public.personne(id_p)
+	,CONSTRAINT professeur_domaine_recherche0_FK FOREIGN KEY (id_domaine) REFERENCES public.domaine_recherche(id_domaine)
+	,CONSTRAINT professeur_ville1_FK FOREIGN KEY (id_ville) REFERENCES public.ville(id_ville)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: etudiant
+------------------------------------------------------------
+CREATE TABLE public.etudiant(
+	id_p              INT  NOT NULL ,
+	sexe              CHAR (5)  NOT NULL ,
+	num_cycle         INT  NOT NULL ,
+	nb_uv             INT  NOT NULL ,
+	theme_recherche   VARCHAR (50) NOT NULL ,
+	nom_p             VARCHAR (50) NOT NULL ,
+	prenom_p          VARCHAR (50) NOT NULL ,
+	date_nais_p       DATE  NOT NULL ,
+	tel_p             VARCHAR (50) NOT NULL ,
+	email_p           VARCHAR (50) NOT NULL ,
+	mdp_p             VARCHAR (50) NOT NULL ,
+	id_p_professeur   INT  NOT NULL ,
+	id_ville          INT  NOT NULL  ,
+	CONSTRAINT etudiant_PK PRIMARY KEY (id_p)
+
+	,CONSTRAINT etudiant_personne_FK FOREIGN KEY (id_p) REFERENCES public.personne(id_p)
+	,CONSTRAINT etudiant_professeur0_FK FOREIGN KEY (id_p_professeur) REFERENCES public.professeur(id_p)
+	,CONSTRAINT etudiant_ville1_FK FOREIGN KEY (id_ville) REFERENCES public.ville(id_ville)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: salle
+------------------------------------------------------------
+CREATE TABLE public.salle(
+	id_salle    SERIAL NOT NULL ,
+	num_stage   INT  NOT NULL ,
+	nom_bat     VARCHAR (50) NOT NULL  ,
+	CONSTRAINT salle_PK PRIMARY KEY (id_salle)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: regider
+------------------------------------------------------------
+CREATE TABLE public.regider(
+	id_ville     INT  NOT NULL ,
+	id_p         INT  NOT NULL ,
+	date_debut   DATE  NOT NULL ,
+	date_fin     DATE  NOT NULL  ,
+	CONSTRAINT regider_PK PRIMARY KEY (id_ville,id_p)
+
+	,CONSTRAINT regider_ville_FK FOREIGN KEY (id_ville) REFERENCES public.ville(id_ville)
+	,CONSTRAINT regider_etudiant0_FK FOREIGN KEY (id_p) REFERENCES public.etudiant(id_p)
+)WITHOUT OIDS;
+
+
+------------------------------------------------------------
+-- Table: suivre
+------------------------------------------------------------
+CREATE TABLE public.suivre(
+	id_cours     INT  NOT NULL ,
+	id_p         INT  NOT NULL ,
+	note_td   int  NOT NULL ,
+    note_examen   int  NOT NULL ,
+	CONSTRAINT suivre_PK PRIMARY KEY (id_cours,id_p)
+
+	,CONSTRAINT suivre_cours_FK FOREIGN KEY (id_cours) REFERENCES public.cours(id_cours)
+	,CONSTRAINT suivre_etudiant0_FK FOREIGN KEY (id_p) REFERENCES public.etudiant(id_p)
+)WITHOUT OIDS;
+
+------------------------------------------------------------
+-- Table: planifier
+------------------------------------------------------------
+CREATE TABLE public.planifier(
+	id_cours     INT  NOT NULL ,
+	id_date         INT  NOT NULL ,
+	heure_debut  time  NOT NULL ,
+    heure_fin   time  NOT NULL ,
+	CONSTRAINT planifier_PK PRIMARY KEY (id_cours,id_date)
+
+	,CONSTRAINT planifier_cours_FK FOREIGN KEY (id_cours) REFERENCES public.cours(id_cours)
+	,CONSTRAINT planifier_date_cours_FK FOREIGN KEY (id_date) REFERENCES public.date_cours(id_date)
+)WITHOUT OIDS;
+
+------------------------------------------------------------
+-- Table: ratacher
+------------------------------------------------------------
+CREATE TABLE public.ratacher(
+	id_dep     INT  NOT NULL ,
+	id_p         INT  NOT NULL ,
+	CONSTRAINT ratacher_PK PRIMARY KEY (id_dep,id_p)
+
+	,CONSTRAINT ratacher_departement_FK FOREIGN KEY (id_dep) REFERENCES public.departement(id_dep)
+	,CONSTRAINT ratacher_professeur_FK FOREIGN KEY (id_p) REFERENCES public.professeur(id_p)
+)WITHOUT OIDS;

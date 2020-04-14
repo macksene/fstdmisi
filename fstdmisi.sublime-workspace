@@ -1,0 +1,837 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"construction"
+			],
+			[
+				"th",
+				"Theses"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/_about.scss",
+			"settings":
+			{
+				"buffer_size": 1534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "service.php",
+			"settings":
+			{
+				"buffer_size": 6344,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 18285,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "section_info.php",
+			"settings":
+			{
+				"buffer_size": 7546,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "section_math1.php",
+			"settings":
+			{
+				"buffer_size": 7628,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "section_math.php",
+			"settings":
+			{
+				"buffer_size": 7580,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "section_securite.php",
+			"settings":
+			{
+				"buffer_size": 7624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "licence.php",
+			"settings":
+			{
+				"buffer_size": 9161,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "section_geo.php",
+			"settings":
+			{
+				"buffer_size": 7595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "doctorat.php",
+			"settings":
+			{
+				"buffer_size": 11193,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dmisi/index.php",
+			"settings":
+			{
+				"buffer_size": 5861,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pied.php",
+			"settings":
+			{
+				"buffer_size": 3129,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "menu_top.php",
+			"settings":
+			{
+				"buffer_size": 5654,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_services.scss",
+			"settings":
+			{
+				"buffer_size": 6457,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 68047,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/note/index.php",
+			"settings":
+			{
+				"buffer_size": 3692,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/fstdmisi",
+		"/C/wamp/www/fstdmisi/fstdmisi",
+		"/C/wamp/www/fstdmisi/fstdmisi/css"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/fstdmisi/fstdmisi/index.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/pied.php",
+		"/C/wamp/www/note/acceuil.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/menu_top.php",
+		"/C/wamp/www/note/menu1.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/404.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/blog.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/contact.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/service.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/master.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/publications.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/theses.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/doctorat.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/entreprises.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/institutions.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/licence.php",
+		"/E/MATH INFO/UE2 developpement logiciels/DEV WEB/TD/sodimel/Note/acceuil.php",
+		"/E/MATH INFO/UE2 developpement logiciels/DEV WEB/TD/sodimel/Note/menu.php",
+		"/E/MATH INFO/UE2 developpement logiciels/DEV WEB/TD/web/Note/index.php",
+		"/C/wamp/www/dotclear/dotclear/index.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/doctorat (2).php",
+		"/C/wamp/www/fstdmisi/fstdmisi/blog-2.php",
+		"/C/wamp/www/fstdmisi/fstdmisi/services.html",
+		"/C/wamp/www/fstdmisi/fstdmisi/blog.html",
+		"/I/DEVELOPPEMENT/COURS/goor web/script php mysql/script base de donneees/phpMyAdmin-2.5.3/db_create.php",
+		"/I/pc/wamp64/www/archives/sodimelslide/index.php",
+		"/C/Users/mack/Documents/GitHub/new_projet_student_mack/mini projet/src/testfenetre/Compte.java",
+		"/C/Users/mack/Documents/GitHub/new_projet_student_mack/mini projet/TestFenetre/src/testfenetre/Passer.java",
+		"/C/Users/mack/Downloads/prestashop/prestashop/Install_PrestaShop.html",
+		"/C/Users/mack/Documents/GitHub/new_projet_student_mack/mini projet/build/classes/testfenetre/AjoutMedecin.class",
+		"/C/Users/mack/Documents/GitHub/new_projet_student_mack/mini projet/bd_consultation.sql",
+		"/C/Users/mack/Documents/MASTER 1/SEMESTRE 1/UE2 GENIE LOGICIEL/JAVA/gorgoumack sene M1 SOIR(mini projet)/TestFenetre/build/classes/testfenetre/AjoutPatient.class",
+		"/E/templates bon/TOPBuilder-colorlib/TOPBuilder/index.html",
+		"/C/Users/mack/Documents/53598-1339082-gestion-stock/Gestion Stock/Gestion_Stock/src/gerer_application/commander.java",
+		"/C/Users/mack/Documents/53598-1339082-gestion-stock/Gestion Stock/Gestion_Stock/src/Operations/Operation.java",
+		"/C/Users/mack/Desktop/test"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#111f29",
+			"DOCTORALE",
+			"Admission"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/_about.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "service.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1973,
+								1973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 794.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1472,
+								1472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 572.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "section_info.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1954,
+								1954
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 615.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "section_math1.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2036,
+								2036
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 475.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "section_math.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1690,
+								1690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 524.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "section_securite.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1690,
+								1690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 638.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "licence.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5500,
+								5500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1409.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "section_geo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4048,
+								4048
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1222.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "doctorat.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1628,
+								1290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 394.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "dmisi/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2097,
+								2097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "pied.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2383,
+								2383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "menu_top.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3857,
+								3857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 737.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "scss/_services.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5999,
+								5999
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2912.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3648,
+								3655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/wamp/www/note/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fstdmisi.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
